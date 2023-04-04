@@ -9,8 +9,8 @@ KERNEL_DIR=$PWD
 BUILD_START=$(date +"%s")
 
 # Name and version of kernel
-KERNEL_NAME="SuperRyzen-OSS"
-KERNEL_VERSION="v10"
+KERNEL_NAME="CoffeKernel"
+KERNEL_VERSION="v1.0"
 
 # Device name
 if [[ "$*" =~ "a26x" ]]; then
